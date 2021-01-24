@@ -1,0 +1,80 @@
+@media (max-width:375px) {
+    .app-header {
+        background: transparent;
+    }
+    .app-header__lang {
+        display: none;
+    }
+
+    .app-header__btn-login {
+        display: none;
+    }
+
+    .app-header__btn-signup {
+        background-color: transparent;
+        width: fit-content;
+        padding: 0;
+        margin-right: 48px;
+    }
+
+    .app-header__menu {
+        display: block;
+    }
+    .people-page__sort-list-item::after{
+        display: none;
+    }
+    .people-page__sort-list-title {
+        display: none;
+    }
+
+    .people-page__sort-list-menu {
+        display: block;
+    }
+    .people-page__filters-list-item+.people-page__filters-list-item{
+        margin-left: 24px;
+    }
+    .people-page__list-wrapper{
+        justify-content: center;
+    }
+    .list-item-bgImg{
+        width: 100%;
+    }
+    .item-card{
+        display: flex;
+        align-items: flex-end;
+    }
+    .list-items__wrapper{
+        padding: 0 0 25px 24px;
+    }
+    .app-footer__wrapper{
+        display: block;
+        padding-top: 32px;
+    }
+    .app-footer__icons{
+        margin-top:24px;
+    }
+    .app-footer__icon{
+        width:32px;
+    }
+    .app-footer__logo{
+        display: block;
+    }
+    .app-footer__logo .app-header__logo{
+        width:82px;
+        height: 24px;
+    }
+    .app-footer__text-wrapper{
+        margin-top:40px;
+    }
+    .people-page__sort-list-item.active > .innerfilter-wrapper{
+        right:0;
+    }
+    .people-page__filters-list-item.active > .innerfilter-wrapper__slider{
+        left:-100px;
+    }
+}
+@media (max-width:1285px){
+    .people-page__list-wrapper{
+        justify-content: center;
+    }
+}
